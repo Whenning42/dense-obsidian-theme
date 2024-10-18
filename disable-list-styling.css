@@ -1,0 +1,16 @@
+/* Shifts bullet points and editor space to the left */
+.cm-formatting {
+    padding-inline-start: 0px;
+} 
+
+/* Change bullet points to bullet points */
+.HyperMD-list-line .list-bullet {
+    content: "-";
+    background-color: transparent;
+    color: var(--text-normal);
+}
+
+.HyperMD-list-line .list-bullet:after {
+    color: transparent;
+    background-color: transparent;
+}

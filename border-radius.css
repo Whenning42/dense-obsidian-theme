@@ -1,0 +1,31 @@
+:root {
+  --ui-border-radius: 3px; /* Change this value to adjust all border radii */
+}
+
+.workspace-tab-header,
+.workspace-tab-header-inner,
+.workspace-leaf,
+.workspace-split,
+.modal,
+.prompt,
+.suggestion-container,
+.checkbox-container,
+.dropdown,
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+.nav-file-title,
+.nav-folder-title,
+.search-result-file-title,
+.search-result-file-match,
+.cm-s-obsidian .CodeMirror-gutters {
+  border-radius: var(--ui-border-radius) !important;
+}
+
+.workspace-tab-header.is-active {
+  border-bottom-left-radius: var(--ui-border-radius) !important;
+  border-bottom-right-radius: var(--ui-border-radius) !important;
+}

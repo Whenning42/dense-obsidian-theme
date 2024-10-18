@@ -1,0 +1,4 @@
+.markdown-preview-view, .markdown-source-view {
+  --line-height-normal: 1.15;
+  --line-height-tight: 1.0;
+}

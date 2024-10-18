@@ -1,0 +1,5 @@
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-sizer {
+    max-width: var(--file-line-width);
+    margin-left: 0px;
+    margin-right: auto;
+}
